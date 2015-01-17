@@ -14,7 +14,9 @@ jQuery(function($) {
     $(document).on('click', '#add-field', function(event) {
         var methodName = $('#faker-box').val();
         if (methodName == 'text') {
-            // WAT
+            alert('text');
+        } else {
+            
         }
     });
 
