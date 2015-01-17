@@ -44,7 +44,7 @@
                         <div class="form-group">
                             <label for="url" class="col-sm-2 control-label">URL</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="url" placeholder="http://">
+                                <input type="url" class="form-control" id="url" placeholder="http://">
                             </div>
                         </div>
                         <div class="form-group">
@@ -72,10 +72,10 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-sm-12">
+                            <div class="col-sm-4">
                                 <select id="faker-box" class="selectpicker show-tick">
                                     <optgroup label="Custom">
-                                        <option value="text">Custom text (not random)</option>
+                                        <option value="text" data-subtext="(not random)">Custom text</option>
                                     </optgroup>
                                     <optgroup label="Name">
                                         <option value="name.firstName">firstName</option>
@@ -87,8 +87,8 @@
                                     <optgroup label="Address">
                                         <option value="address.zipCode">ZIP Code</option>
                                         <option value="address.city">City</option>
-                                        <option value="address.cityPrefix">cityPrefix</option>
-                                        <option value="address.citySuffix">citySuffix</option>
+                                        <option value="address.cityPrefix">City Prefix</option>
+                                        <option value="address.citySuffix">City Suffix</option>
                                         <option value="address.streetName">streetName</option>
                                         <option value="address.streetAddress">streetAddress</option>
                                         <option value="address.streetSuffix">streetSuffix</option>
