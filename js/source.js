@@ -34,9 +34,7 @@ jQuery(function($) {
     
     $(document).on('submit', '#form', function(event) {
         event.preventDefault();
-        if (!confirm('Start spamming?'))
-            return;
-        alert('hey');
+        alert('Sorry dude, this is under development and currently doesn\'t work');
     });
 
     addField();
