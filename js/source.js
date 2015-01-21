@@ -11,7 +11,7 @@ jQuery(function($) {
             .selectpicker();
         container.append(clone);
         if (event !== undefined) {
-            container.find('input:text').last().focus();
+            clone.find('input:text').first().focus();
         }
     }
 
