@@ -13,6 +13,9 @@ jQuery(function($) {
         if (event !== undefined) {
             clone.find('input:text').first().focus();
         }
+        else{
+            clone.find('input:text').Second().focus();
+        }
     }
 
     var selectChange = function(event) {
